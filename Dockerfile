@@ -8,7 +8,7 @@ RUN pip install -r /requirements.txt
 RUN mkdir /app
 
 WORKDIR /app
-COPY ./app /app
+COPY ./behrang /app
 
 # create user as username
 # -D create a user to running application only
