@@ -8,4 +8,5 @@ class CalcTest(TestCase):
     """
 
     def test_calcs(self):
-        self.assertEqual(add(3, 4),7)
+        """unittest should start with 'test' """
+        self.assertEqual(add(3, 4), 7)
